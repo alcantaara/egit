@@ -2,6 +2,7 @@
 public class B {
 	private int b1; //atributos
 	private float b2; 
+	private String b4;
 
 	
 	    public static void main(String[] args) {
@@ -20,5 +21,12 @@ public class B {
 
 	    public void setB2(float b2) {
 	        this.b2 = b2;
+	    }	    
+	    public String getB4() {
+	        return b4;
+	    }
+
+	    public void setB4(String b4) {
+	        this.b4 = b4;
 	    }
 }
