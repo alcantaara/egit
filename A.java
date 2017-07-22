@@ -33,7 +33,7 @@ public class A {
 	    public float soma() {
 	    	return soma;
 	    }
-	    public void soma(int a1, float a2) {
+	    public void soma(int a1, float a2) {//somando valores
 	    	soma = a1 + a2;
 	    }
 }
