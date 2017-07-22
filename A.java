@@ -4,6 +4,7 @@ public class A {
 	private int a1; //atributos
 	private float a2; 
 	private String a3;
+	private String aprinc4;
 
 	
 	    public static void main(String[] args) {
@@ -29,5 +30,12 @@ public class A {
 
 	    public void setA3(String a3) {
 	        this.a3 = a3;
+	    }
+	    public String getAprinc4() {
+	        return aprinc4;
+	    }
+
+	    public void setAprinc4(String aprinc4) {
+	        this.aprinc4 = aprinc4;
 	    }
 }
