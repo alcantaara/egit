@@ -4,7 +4,7 @@ public class A {
 	private int a1; //atributos
 	private float a2; 
 	private String a3;
-
+	private float soma;
 	
 	    public static void main(String[] args) {
 	      
@@ -29,5 +29,11 @@ public class A {
 
 	    public void setA3(String a3) {
 	        this.a3 = a3;
+	    }
+	    public float soma() {
+	    	return soma;
+	    }
+	    public void soma(int a1, float a2) {
+	    	soma = a1 + a2;
 	    }
 }
