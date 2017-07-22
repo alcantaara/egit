@@ -3,6 +3,7 @@ package teste;
 public class A {
 	private int a1; //atributos
 	private float a2; 
+	private String a3;
 
 	
 	    public static void main(String[] args) {
@@ -21,5 +22,12 @@ public class A {
 
 	    public void setA2(float a2) {
 	        this.a2 = a2;
+	    }
+	    public String getA3() {
+	        return a3;
+	    }
+
+	    public void setA3(String a3) {
+	        this.a3 = a3;
 	    }
 }
