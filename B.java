@@ -1,7 +1,7 @@
 
 public class B {
 	private int b1; //atributos
-	private float b2; 
+	private float b2; //
 	private String b4;
 
 	
