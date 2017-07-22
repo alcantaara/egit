@@ -5,6 +5,7 @@ public class A {
 	private float a2; 
 	private String a3;
 	private float soma;
+	private String aramo4;
 	
 	    public static void main(String[] args) {
 	      
@@ -35,5 +36,12 @@ public class A {
 	    }
 	    public void soma(int a1, float a2) {//somando valores
 	    	soma = a1 + a2;
+	    }
+	    public String getAramo4() {
+	        return aramo4;
+	    }
+
+	    public void setAramo4(String aramo4) {
+	        this.aramo4 = aramo4;
 	    }
 }
