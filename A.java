@@ -5,7 +5,7 @@ public class A {
 	private float a2; 
 	private String a3;
 	private float soma;
-	private String aramo4;
+	private String aramo4;//novo atributo
 	
 	    public static void main(String[] args) {
 	      
